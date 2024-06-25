@@ -1,4 +1,9 @@
 <script setup>
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Contact` : "Contact";
+  },
+});
 definePageMeta({
   layout: "landing",
 });

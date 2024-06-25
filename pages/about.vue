@@ -1,7 +1,7 @@
 <script setup>
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Site Title` : "Site Title";
+    return titleChunk ? `${titleChunk} - About` : "About";
   },
 });
 definePageMeta({
